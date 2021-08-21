@@ -3,7 +3,6 @@ import {
   IonList,
   IonListHeader,
   IonMenu,
-  IonNote,
 } from '@ionic/react';
 import { home, settings } from 'ionicons/icons';
 import MenuItem from './MenuItem';
@@ -14,8 +13,7 @@ const Menu: React.FC = () => {
     <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="main-menu-list">
-          <IonListHeader>Inbox</IonListHeader>
-          <IonNote>hi@ionicframework.com</IonNote>
+          <IonListHeader>Menu</IonListHeader>
           <MenuItem title="Home" path="/page/Home" icon={home} />
           <MenuItem title="Settings" path="/page/Settings" icon={settings} />
         </IonList>
