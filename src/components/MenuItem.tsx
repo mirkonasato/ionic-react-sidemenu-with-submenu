@@ -2,7 +2,7 @@ import { IonIcon, IonItem, IonLabel, IonMenuToggle } from '@ionic/react';
 import { useLocation } from 'react-router';
 
 interface MenuItemProps {
-  icon: string;
+  icon?: string;
   path: string;
   title: string;
 }
